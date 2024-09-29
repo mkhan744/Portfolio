@@ -1,0 +1,289 @@
+/* Filename: Style.css
+   Student: Maryam Khan
+   StudentId: 301371688
+   Date: September 27, 2024*/
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+}
+
+body {
+    height: 100%;
+    margin: auto;
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Home {
+    text-align: center;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9664b5b2;
+    padding: 10px;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(50, 135, 106);
+}
+
+main {
+    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+}
+
+#info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+#info .button-i {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.about-button {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    background-color: #cb83a8;
+}
+
+.about-button:hover {
+    background-color: #ab69ba;
+}
+
+h1 {
+    color: #001f3f;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #bb80b5;
+    text-align: center;
+}
+
+h3 {
+    color: #975ea4;
+    text-align: left;
+    padding-left: 0.5rem;
+}
+
+h4 {
+    color: #b273c1;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #9d5ca8;
+    text-align: left;
+    padding-left: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-img {
+    margin-top: 20px;
+    width: 500px;
+    max-width: 800px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.services img {
+    width: 100px;
+    height: auto;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: rgb(219, 219, 219);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+#footerLogo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#footerLogo a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 24px;
+}
+
+#footerLogo a:hover {
+    color: #555;
+}
+
+.btn-download {
+    padding: 10px 20px;
+    background-color: #8b2f8b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-download:hover {
+    background-color: #16334f;
+}
+
+.mission-statement {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.55rem;
+    line-height: 1.5;
+    text-align: center;
+    margin: 20px 0;
+    color: #bf6c6c;
+}
+
+.project-p {
+    text-align: center;
+}
+
+.project-paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 0.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(183, 125, 171, 0.1);
+}
+
+fieldset {
+    background-color: #eaeaea;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    color: #4b0082;
+}
+
+label {
+    font-weight: lighter;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #8ebfd7;
+    border-radius: 5px;
+    border-color: #48baba;
+    background-color: #ced2f1;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #a0afa8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.button:hover {
+    background-color: #103947;
+}
